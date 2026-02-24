@@ -8,6 +8,8 @@ public class Programmer extends Employee {
 	
 	void print() {
 		
+		super.print();
+		
 		System.out.println("ProgLang = "+progLang);
 		System.out.println("Project = "+project);
 		System.out.println("Bonus = "+bonus);
